@@ -1,6 +1,6 @@
 {
   "name": "freebird-netcore-mqtt",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Freebird netcore of mqtt (LWMQN)",
   "main": "index.js",
   "scripts": {
