@@ -22,6 +22,7 @@
     "mocha": "^2.5.3"
   },
   "dependencies": {
+    "busyman": "^0.1.2",
     "freebird-base": "^0.2.3",
     "lwm2m-id": "^1.3.0",
     "mqtt-shepherd": "^0.2.0"
