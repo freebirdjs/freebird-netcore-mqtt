@@ -17,4 +17,4 @@ Please visit the [Wiki](https://github.com/freebirdjs/freebird-netcore-mqtt/wiki
 
 ## License  
 
-Licensed under [MIT](https://github.com/lwmqn/lwmqn-util/blob/master/LICENSE).
+Licensed under [MIT](https://github.com/freebirdjs/freebird-netcore-mqtt/blob/master/LICENSE).
