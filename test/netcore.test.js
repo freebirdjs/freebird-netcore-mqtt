@@ -1,8 +1,8 @@
-var chai = require('chai'),
+var _ = require('busyman'),
+    chai = require('chai'),
     sinon = require('sinon'),
     sinonChai = require('sinon-chai'),
-    expect = require('chai').expect,
-    _ = require('busyman');
+    expect = require('chai').expect;
 
 chai.use(sinonChai);
 
@@ -45,7 +45,6 @@ describe('qnode ready', function() {
 /***********************************************************************/
 /*** Create Netcore                                                  ***/
 /***********************************************************************/
-
 var mqttCore = require('../index')('netcore-test'),
     controller = mqttCore._controller,
     FBird = require('freebird'),
@@ -60,10 +59,7 @@ describe('start freebird', function() {
             if (!err) {
                 freebird.permitJoin(180);
                 qnode.connect('mqtt://0.0.0.0');
-                setTimeout(function () {
-                    done();
-                }, 5000);
-                //done();
+                done();
             }
         });
     });
