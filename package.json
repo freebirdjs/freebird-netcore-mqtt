@@ -1,6 +1,6 @@
 {
   "name": "freebird-netcore-mqtt",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Freebird netcore of mqtt (LWMQN)",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "busyman": "^0.3.0",
     "freebird-base": "^0.4.6",
     "lwm2m-id": "^1.6.1",
-    "mqtt-shepherd": "^0.6.4"
+    "mqtt-shepherd": "^0.7.2"
   }
 }
